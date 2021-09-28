@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fcd675c567.js" crossorigin="anonymous"></script>
+    <title>Ejercicio 3</title>
+
+    <style>
+        .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem;
+
+        }
+
+        .navigation__logo{
+            background: -webkit-gradient(linear, left top, left bottom, from(#7E46AD), to(#B18FCE));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .navigation__list{
+            list-style: none;
+            margin-bottom: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .navigation__logo{
+            width: 100%;
+        }
+
+        .navigation__item{
+            margin: 0.5rem;
+        }
+
+        .navigation__link{
+            color: black;
+            font-size: 1.25rem;  
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <div > <i class="fas fa-play-circle fa-3x navigation__logo"></i></div>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Inicio</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Entrevistas</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Música</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Tendencias</a>
+          </li>
+        </ul>
+      </nav>
+</body>
+</html>
